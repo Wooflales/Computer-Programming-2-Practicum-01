@@ -7,18 +7,11 @@ import java.util.ArrayList;
 import static java.nio.file.StandardOpenOption.CREATE;
 public class PersonGenerator {
     public static void main(String[] args) {
-        String hi = String.format("My answer is %15.8s", 47.65734);
-        System.out.printf(hi);
         Scanner in = new Scanner(System.in);
         ArrayList <String>recs = new ArrayList<>();
         //Variables declared
         boolean stillgoing = true;
         do {
-            String id2 = "";
-            String firstname2 = "";
-            String lastname2 = "";
-            String title2 = "";
-            int yob2 = 0;
             String record = "";
             String fields[];
             //The user is asked for every input with SafeInput
