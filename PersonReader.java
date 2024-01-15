@@ -58,7 +58,6 @@ public class PersonReader
                     lines.add(rec);  // read all the lines into memory in an array list
                     line++;
                     // echo to screen
-                    System.out.printf("\nLine %4d %-60s ", line, rec);
                 }
                 reader.close(); // must close the file to seal it and flush buffer
                 System.out.println("\n\nData file read!");
